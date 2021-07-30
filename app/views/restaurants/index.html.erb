@@ -1,0 +1,6 @@
+<div class="d-flex flex-column align-items-center">
+  <% @restaurants.each do |r| %>
+    <%= link_to r.name, restaurant_path(r), class: "restaurant-title"%>
+  <% end -%>
+</div>
+

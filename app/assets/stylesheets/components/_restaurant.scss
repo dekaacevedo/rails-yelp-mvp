@@ -1,0 +1,9 @@
+.restaurant-title {
+  font-size: 30px;
+  text-decoration: none;
+  color: $gray;
+
+  &:hover {
+    color: $success;
+  }
+}
